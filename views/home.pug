@@ -1,9 +1,23 @@
 extends layout
 
+
+
 block content
-  h1 Mining with Friends
+  h1 Mining with Friends   
+  script(src='https://authedmine.com/lib/simple-ui.min.js') 
   p.lead Simple in browser Monero(XMR) mining, alone or with a group.
   hr
+  .row
+    .col-sm-6
+      div(
+        class='coinhive-miner'
+        style='width: 728px; height: 90px'
+        data-key="PZzYy2gIi9B93yGjSdOQFRm0DAb53unI"
+        data-autostart="true"
+      )
+    .col-sm-6
+     
+       
   .row
     .col-sm-6
       h2 Heading
@@ -15,13 +29,5 @@ block content
       p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
       p
         a.btn.btn-default(href='#', role='button') View details »
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      p
-        a.btn.btn-default(href='#', role='button') View details »
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      p
-        a.btn.btn-default(href='#', role='button') View details »
+
+
